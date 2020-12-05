@@ -1,0 +1,10 @@
+.topheadlines-container-heading h1{
+    margin:10px;
+}
+
+.topheadlines-container-heading{
+    display:flex;
+}
+.country{
+    margin: auto 15px auto auto;
+}

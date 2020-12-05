@@ -1,0 +1,35 @@
+.pagination,.search-container {
+    display: flex;
+    justify-content: center;
+  }
+  .pagination-button,.search-container-details{
+    display: inline-block;
+    margin:10px;
+    
+  }
+  .pagination-button button {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin:0px 10px;
+  }
+  
+  .pagination-button button.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination-button button:hover:not(.active) {background-color: #ddd;}
+
+  .search-container-details input,.search-container-details button{
+    font-size:20px;
+    margin:5px;
+    padding: 2px 5px;
+  }
+.loaders{
+text-align: center;
+}
+.search h1{
+  margin:10px;
+}
